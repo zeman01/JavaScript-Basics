@@ -88,36 +88,33 @@
 //   }
 // }, 1000);
 
-// !
+// // !
 
-const getUser = (userId) => {
-  setTimeout(() => {
-    const user = { id: userId, name: "Jaman Shrestha" };
-    console.log("user fetched :", user);
-  }, 1000);
-};
+// const getUser = (userId) => {
+//   setTimeout(() => {
+//     const user = { id: userId, name: "Jaman Shrestha" };
+//     console.log("user fetched :", user);
+//   }, 1000);
+// };
 
-const getOrder = (userId) => {
-  setTimeout(() => {
-    const orders = [
-        { id: 1, userId : user.id,totalAmt : 100, productId : 10},
-        { id: 1, userId : user.id,totalAmt : 100, productId : 10},
-    ];
-    console.log("Orders :", orders);
-  }, 1000);
-};
-const getOrderDetail= (userId) => {
-  setTimeout(() => {
-    const order {id: orders.id,
-    totalAmt : orders.totalAmt,
-    };
-    console.log("order Detail", orders);
-  }, 1000);
+// const getOrder = (userId) => {
+//   setTimeout(() => {
+//     const orders = [
+//         { id: 1, userId : user.id,totalAmt : 100, productId : 10},
+//         { id: 1, userId : user.id,totalAmt : 100, productId : 10},
+//     ];
+//     console.log("Orders :", orders);
+//   }, 1000);
+// };
+// const getOrderDetail= (userId) => {
+//   setTimeout(() => {
+//     const order {id: orders.id,
+//     totalAmt : orders.totalAmt,
+//     };
+//     console.log("order Detail", orders);
+//   }, 1000);
 
-};
+// };
 
-
-
-
-// * call back hell
-// a problem when in async is a nested
+// // * call back hell
+// // a problem when in async is a nested
