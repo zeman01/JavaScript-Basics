@@ -39,11 +39,11 @@ console.log(funct_var)          // ReferenceError: funct_const is not defined
 
 
 // * block Scope
- block (true){
+//  block (true){
 
 
 
- }
+//  }
 
 
 

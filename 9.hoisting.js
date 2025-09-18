@@ -16,7 +16,7 @@ console.log (a)  //10
 
 // !let
 
-// hosted but is in TDZ (Temporal Dead Zone)
+// hoisted but is in TDZ (Temporal Dead Zone)
 
 // console.log(b)   // can't access before initilization
 
@@ -27,7 +27,7 @@ console.log (a)  //10
 
 // !const
 
-// hosted but is in TDZ (Temporal Dead Zone)
+// hoisted but is in TDZ (Temporal Dead Zone)
 
 // console.log(c)   // can't access before initilization
 

@@ -60,21 +60,21 @@
 
 // console.log("start");
 
-// // const timerId = setTimeout(
-// //   (userId, name) => {
-// //     console.log("processing", userId, name);
-// //   },
-// //   1000, // starts after 1 sec
-// //   10, // user ID
-// //   "Async" // name
-// // );
+// const timerId = setTimeout(
+//   (userId, name) => {
+//     console.log("processing", userId, name);
+//   },
+//   1000, // starts after 1 sec
+//   10, // user ID
+//   "Async" // name
+// );
 
-// // setInterval(Task, interval)
+// setInterval(Task, interval)
 
 // setInterval(() => {
 //   console.log("loop");
 // });
-// // console.log(timerId);
+// console.log(timerId);
 
 // console.log("end");
 
@@ -88,7 +88,7 @@
 //   }
 // }, 1000);
 
-// // !
+// !
 
 // const getUser = (userId) => {
 //   setTimeout(() => {
@@ -116,5 +116,5 @@
 
 // };
 
-// // * call back hell
-// // a problem when in async is a nested
+// * call back hell
+// a problem when in async is a nested

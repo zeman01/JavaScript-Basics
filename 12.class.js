@@ -38,13 +38,13 @@
 // super()
 // this.grade = grade
 // this.faculty = faculty
-// //   getName() {
-// //     return this.name;
-// //   }
-// //   changeName(name) {
-// //     this.name = name;
-// //     console.log("your new name is", name);
-// //   }
+//   getName() {
+//     return this.name;
+//   }
+//   changeName(name) {
+//     this.name = name;
+//     console.log("your new name is", name);
+// }
 // }
 // const student = new Student ("Ram", "sgh@hjw",  123456, "bachelors", "CSIT")
 

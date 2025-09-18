@@ -1,19 +1,12 @@
-// In JavaScript, an object is a standalone entity
-// that groups related data and functionality.
-// It is a complex, non-primitive data type used to store
-// collections of key-value pairs.
-// These key-value pairs are called properties,
-// and if the value is a function, it is called a method.
+// In JavaScript, an object is a standalone entity that groups related data and functionality. It is a complex, non-primitive data type used to store collections of key-value pairs.These key-value pairs are called properties, and if the value is a function, it is called a method.
 
 // Object properties
 // Properties are the characteristics of an object.
-// A property has a key, which is a string or a symbol,
-// and a value, which can be any JavaScript data type.
+// A property has a key, which is a string or a symbol, and a value, which can be any JavaScript data type.
 
 // Accessing properties
 // Dot notation    used when property name is valid identifier
-// Bracket notation    used when property name contains special
-// characters, spaces, stats with number or is sorted variable
+// Bracket notation    used when property name contains special characters, spaces, stats with number or is sorted variable
 
 let Student = {
   name: "John",
@@ -34,10 +27,8 @@ let prop = "name";
 console.log(Student[prop]); // Output: John
 
 // Object methods
-// Methods are functions stored as object properties
-// that define the actions an object can perform.
-// The this keyword inside a method refers to the object
-// the method belongs to.
+// Methods are functions stored as object properties that define the actions an object can perform.
+// The this keyword inside a method refers to the object the method belongs to.
 
 let Tutor = {
   firstName: "John",
@@ -53,9 +44,7 @@ console.log(Tutor.fullName()); // Output: "John Doe"
 
 // 1. Object literal syntax
 
-// This is the simplest and most common method,
-// using curly braces {} to define the object and
-// its properties.
+// This is the simplest and most common method, using curly braces {} to define the object and its properties.
 const car = {
   make: "Ford",
   model: "Mustang",
@@ -116,3 +105,118 @@ myRide.drive(); // Output: "Driving..."
 // Encapsulation: Objects bundle data (properties) and
 // behavior (methods) together, representing real-world entities
 // in a single entity.
+
+
+
+
+
+// let bottle_name = ''
+// let bottle_capacity  = '1000ml'
+
+// let bottle = {
+//     name: '',
+//     capacity :'100ml',
+//     colour:[]
+// }
+
+// object literal -> {}
+
+// let person = {
+//     name:'jhon Doe'
+// }
+
+// new keyword (object constructor)\
+
+// let product = new Object()
+
+
+
+// let person = {
+//     name:'jhon Doe',
+//     password:'1234r',
+//     gender:''
+// }
+
+// console.log(person.address.district)
+// console.log(person['address']['district'])
+
+//! adding properties
+// person.name = 'abc'
+// product.name = 'xyz'
+// person.email = 'johndoe@gmail.com'
+
+//! reading/accessing values
+//* dot notatiion
+// const person_name = person.email
+// console.log(person.full name)
+// console.log(person.email)
+
+//* brancket notation
+// console.log(person['name'])
+
+// let read_key = 'email'
+
+// console.log(person.read_key) // undefined
+// console.log(person[read_key])
+
+
+//! modify properties
+// person.name = 'abc'
+// console.log(person)
+
+// person['name'] = 'xyz'
+
+
+// console.log(person)
+
+
+
+// delete
+
+// delete person.read_key
+
+// console.log(person)
+
+
+// console.log(person.hasOwnProperty('age'))
+
+// if(!person.hasOwnProperty('age')){
+//     person.age = 30
+// }
+
+
+// console.log(person)
+
+
+
+// console.log(Object.keys(person))
+// console.log(Object.values(person))
+// console.log(Object.entries(person)) //[ [name, xyz],[]]
+
+// const entries = Object.entries(person)
+
+// console.log(entries)
+// console.log(Object.fromEntries(entries))
+
+
+// const obj = {
+//     name:'xyz',
+//     greet:function(){
+//             console.log('good morning')
+//     }
+// }
+
+// obj.greet()
+
+let bottle = {
+  name: "abc",
+  capacity: "100ml",
+  colour: "red",
+};
+
+
+let key = "capacity";
+// dot , bracket
+console.log(bottle.name);
+console.log(bottle["capacity"]);
+console.log(bottle[key]) // 100ml , undefined

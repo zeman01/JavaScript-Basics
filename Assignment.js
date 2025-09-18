@@ -50,42 +50,51 @@
 // // Console.log(Withdraw(1000));
 
 class Account {
-  constructor(name, balance, withdraw, deposit) {
+  constructor(name, balance) {
     this.name = name;
     this.balance = balance;
-    this.withdraw = withdraw;
-    this.deposit = deposit;
   }
 
-
-Withdraw: function (withdrawalAmount) {
-    if (withdrawalAmount > Account.Amount) {
+  Withdraw(withdrawalAmount) {
+    if (withdrawalAmount > this.balance) {
       console.log("INSUFFICENT BALANCE !!!");
     } else {
-      Account.Amount -= withdrawalAmount;
+      this.balance -= withdrawalAmount;
       console.log(
         "Dear,",
-        Account.accountHolderName,
+        this.name,
         "\n",
         "Your New Balance is ",
         "Rs.",
-        Account.Amount
+        this.balance
       );
     }
-    Deposit: function (depositAmount) {
+  }
+  Deposit(depositAmount) {
     if (depositAmount <= 0) {
       console.log("INSUFFICENT AMOUNT FOR DEPOSIT !!!");
     } else {
-      Account.Amount += depositAmount;
+      this.balance += depositAmount;
       console.log(
         "Dear,",
-        Account.accountHolderName,
+        this.name,
         "\n",
         "Your New Balance is ",
         "Rs.",
-        Account.Amount
+        this.balance
       );
     }
   }
-    
+  checkBalance() {
+    console.log(`Your Balance amount is ${this.balance}`);
   }
+}
+
+let account = new Account("Jaman", 10000);
+account.Deposit(0); //INSUFFICENT AMOUNT FOR DEPOSIT !!!
+account.Deposit(1000); // shows new balance message
+
+account.Withdraw(12000); //INSUFFICENT BALANCE !!!
+account.Withdraw(1000);
+
+account.checkBalance();
