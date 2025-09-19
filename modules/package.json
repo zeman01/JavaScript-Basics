@@ -1,0 +1,17 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "learn nodeJS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "url": "^0.11.4"
+  }
+}
